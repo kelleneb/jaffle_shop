@@ -1,0 +1,7 @@
+# Example profiles.yml file
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: learn-dbt.duckdb # will be created if it doesn’t exist yet
